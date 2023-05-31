@@ -1,0 +1,60 @@
+.sidebar h1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sidebar-title{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 30px 0px 20px;
+    font-weight: bold;
+}
+.sidebar-content{
+    display: flex;
+    font-size: 1.3rem;
+    padding: 10px;
+    justify-content: center;
+    height: 100px;
+}
+.sidebar-content img{
+    display: block;
+    margin: auto;
+}
+.sidebar-content .content-left{
+    font-weight:500;
+}
+/* sectionbar */
+.sectionbar{
+    margin: 20px 0px;
+    background-color: #f0f0f0;
+    height: 530px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 0px 10px;
+
+}
+.sectionbar-img{
+    padding: 10px 0px;
+}
+.sectionbar-img img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+.sectionbar-link{
+    text-decoration:underline;
+    padding: 10px 0px   ;
+
+}
+.sectionbar-link li {
+    padding-bottom: 10px;
+}
+.sectionbar-icon{
+    padding-right: 5px;
+}
+.sectionbar-info_numberphone{
+    padding: 5px 10px;
+}
+.sectionbar-info_company{
+    padding: 10px 0px 5px;
+}

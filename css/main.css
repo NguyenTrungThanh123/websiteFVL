@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo-FVL
+{
+    height: 36px;
+    width: 151.7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#logo-TPL
+{
+    height: 36px;
+    width: 87.9px;
+}
+
+.nav_image{
+    display: flex;
+    left: 10;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+   border-bottom: 1px solid rgb(241, 239, 239);
+   padding: 6px 0px;
+   line-height: 3rem;
+   background-color: #fff;
+   z-index: 1;
+   
+}
+.nav_pc{
+    height: auto;
+    width: 100%;
+    
+}
+.nav_pc .nav_list{
+    display: flex;
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+.nav_pc .nav_list a{
+    text-transform: uppercase;
+    padding: 10px 19px;
+    color: #333;
+    display: block;
+    font-weight: bold ;
+    font-size: 1.3rem;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.nav_bars-btn{
+    height: 30px;
+    width: 30px;
+    color: #333;
+    font-size: 1.6rem;
+    display: none;
+    margin-left: 8px;
+}
+
+.nav_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0,0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav_moblie{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: transform linear 0.2s,opacity linear 0.2s;
+}
+.nav_moblie-list{
+    margin-top: 24px;
+}
+.nav_moblie-link{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0px;
+    font-size: 1.4rem;
+}
+.nav_mobile-close{
+    font-size: 2rem;
+    color: #666;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.nav-input:checked ~ .nav_overlay{
+    display: block;
+}
+.nav-input:checked ~ .nav_moblie{
+    transform: translateX(0%);
+    opacity: 1;
+}
+header.sticky{
+        background:#fff;
+        opacity: 1;
+        color: #333;
+        padding: 0px 0px;
+        box-shadow: 0 15px 20px rgb(#fff, #fff, #fff,0.5);
+        animation: fadeIn linear 0.2s;
+    
+}
+header.sticky #logo-FVL{
+    height: 30px;
+    width: 126.405px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+
+header.sticky #logo-TPL
+{
+    height: 30px;
+    width: 73.25px;
+}
+
+
+header.sticky .nav_list a{
+    color: #333;
+   
+}
+.nav_list .nav_link a:hover{
+    color: rgb(221, 51, 9);
+}
+
+
+
+
+/* Banner */
+.banner{
+    background: url(../images/wrapper_header_bg.jpg) no-repeat;
+    min-height: 340px;
+    width: 100%;
+    background-size: 1202px;
+    background-position-x: 1.2rem;
+    margin-top: 64px;
+
+}
+
+
+video{
+    position: relative;
+    
+}
+
+/* Content */
+
+.footer{
+    width: 100%;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(79, 79, 79);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+.footer_info{
+    padding-bottom: 10px;
+}
+.footer .info{
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+}
+.footer .info p{
+    text-align: left;
+    padding: 4px 0px;
+    color: #fff;
+}
+.footer span{
+    color: #fff;
+}
+.footer .info h4{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    
+    border-bottom: 3px solid #dfdfdf;
+    color: #f26522;
+    line-height: 2rem;
+}
+.footer_info-icon{
+    padding-right: 10px;
+}
+.footer_logo-facebook{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.footer_link-FVL{
+    padding: 10px 12px;
+}
+.footer_link-TPL{
+    padding-bottom: 10px;
+}
+.footer_logo-facebook a {
+    color: #fff;
+}
+.footer_logo-facebook img{
+    height: 16px;
+    width: 16px;
+    
+}
+.footer_logo-facebook a:hover {
+    cursor: pointer;
+    color: #f26522;
+}
+.footer_btn-apply{
+    background-color: #f26522;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.footer_btn-apply a{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+}
+.footer_img-iso img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+span{
+    font-weight: bold;
+    color:#4f4f4f;
+    font-size: 1.3rem;
+}
+p{
+    font-size: 1.3rem ;
+    line-height: 2rem;
+    text-align: justify;
+}
+.footer p,
+.footer p a{
+    color: #3d3c3c;
+    text-align: center;
+}
+.footer p a:hover{
+    color: #a7a3a3;
+}
+
+
+@media (max-width: 1023px){
+    .nav_bars-btn{
+        display: block;
+    }
+    .nav_pc{
+        display: none;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

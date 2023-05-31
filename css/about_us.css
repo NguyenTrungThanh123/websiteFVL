@@ -1,0 +1,172 @@
+/* Our Companies */
+/* .tab-content .tab-pane p{
+    font-size: 1.6rem;
+} */
+.banner{
+    background: url(../images/FVL-Office.jpg) no-repeat;
+    min-height: 340px;
+    width: 100%;
+    background-size: 1202px;
+    background-position-x: 1.2rem;
+    margin-top: 64px;
+
+}
+.tab-pane-paragraph{
+    padding-bottom: 10px;
+}
+.WhoAreWe{
+    text-align: center;
+    border: 1px solid #f5f5f5;
+}
+.tag-intro{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.video-intro{
+    border: 1px solid #f5f5f5;
+     
+}
+
+/* Our Offices */
+.our_offices img{
+    margin-bottom: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+
+/* Our Leaderships */
+
+.leadership-CEO{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.leadership-cMichelle{
+    width: 30%;
+    text-align: center;
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+.leadership{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.leadership-cMichelle p,
+.leadership-team p{
+    text-align: center;
+}
+.leadership-team{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+
+/* Our Achievements */
+.our_achievements img{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+}
+.img-height img{
+    object-fit: contain;
+    height: 600px;
+    width: 400px;
+    padding-top: 12px;
+}
+.img-width img{ 
+    width: 588px;
+    height: 441px;
+    padding-top: 12px;
+    
+}
+
+/* Our Activities */
+.our-activities{
+    padding-top: 20px;
+}
+.our-activities h2
+{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #f26522;
+    padding-bottom: 20px;
+    padding-top: 30px;
+   
+   
+}
+.our-activities_video video{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+}
+.our-activities_video iframe{
+    width: 100%;
+}
+.our-activities_img img{
+    width: 384px;
+    height: 216px;
+    padding-top: 12px;
+    object-fit: cover;
+}
+/* Our Customers */
+
+.our_customers .spotlight{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.sidebar h1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sidebar-content{
+    display: block;
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    justify-content: center;
+    line-height: 2rem;
+
+
+}
+.sidebar-content_main{
+    padding: 10px 0px;
+}
+.sidebar-content_main p{
+    text-align: justify;
+}
+.sidebar-content_main .author{
+    padding: 10px 0px;
+    float: right;
+    font-size: 1.3rem;
+}
+.sidebar-content_main img{
+    display: block;
+    margin: auto;
+   
+}
+.our_customers h1 {
+    text-align: center;
+    /* color: #f26522; */
+    padding: 10px 0px;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+}

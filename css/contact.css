@@ -1,0 +1,83 @@
+.banner{
+    background: url(../images/contact/landmark81-banner6.jpg) no-repeat;
+    min-height: 361px;
+    width: 100%;
+    background-size: 1202px;
+    background-position-x: 1.2rem;
+    margin-top: 64px;
+
+}
+
+.main{
+    /* padding-top: 60px */
+}
+.sidebar h1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sidebar-content{
+    font-size: 1.6rem;
+    padding: 10px 0px;
+    justify-content: center;
+    line-height: 2rem;
+}
+.sidebar-content-title{
+    padding: 10px 0px;
+}
+.sidebar-content-contact{
+    padding:10px 0px;
+}
+.sidebar-link h4{
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+.sidebar-content .apply a{
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px 22px;
+    background-color: #f26522;
+    border-radius: 5px;
+   
+}
+.sidebar-map img,
+.sidebar-content .sidebar-link img{
+    display: block;
+    margin: auto;
+}
+.sidebar-map img{
+    padding: 10px 0px;
+}
+
+.sidebar-content .sidebar-link{
+    padding: 10px 0px;
+    
+}
+.sidebar-link p{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.6 rem;
+}
+.sidebar-link img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* sectionbar */
+.sectionbar{
+    
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 17px 10px;
+
+}
+.sectionbar img{
+    width: 80%;
+}
+.googleMap{
+    width: 100%;
+    height: 400px;
+}

@@ -1,0 +1,309 @@
+.icon-facebook{
+    font-size: 2rem;
+    padding-right: 7px;
+    position: relative;
+    top: 2px;
+    color: #3c5c99 ;
+}
+.logo-facebook{
+    padding: 10px 0px;
+}
+.logo-facebook a{
+    font-size: 1.3rem;
+    color: #f26522;
+    font-weight: bold;
+}
+.link-FVL{
+    padding: 0px 20px;
+}
+.link-TPL{
+    padding-left: 2px;
+}
+
+.sidebar-image{
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    height: 172.68px;
+    border-radius: 2px;
+    padding-top: 10px;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+
+.sidebar .advanced_title,
+.sectionbar .bpo_title,
+.client_says_title
+{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dfdfdf;
+    color: #fff;
+    font-size: 18px;
+    
+    
+}
+.sidebar .advanced_title {
+    text-align: left;
+}
+.sectionbar .bpo_title{
+    
+    text-align: right;
+}
+.advanced_content{
+    padding: 10px 0px;
+}
+.sidebar p, .sidebar span{
+    line-height: 2.5rem;
+    padding: 10px 0px;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sidebar .sidebar-btn a{
+    padding: 10px 20px;
+    background-color: #e3e3e3 ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    /* box-shadow: 2px 4px #f3f3f3; */
+    /* border: 1px solid #666; */
+}
+.sidebar .sidebar-btn a:hover{
+    opacity: 0.9;
+    color: #f26522;
+}
+
+.sidebar .sidebar-btn{
+    margin: 10px 0px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.sectionbar{
+    padding: 10px 12px;  
+    
+}
+
+
+
+.sectionbar p, .sectionbar span{
+    line-height: 2.5rem;
+    padding: 10px 0px;
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+}
+.sectionbar .sectionbar-btn{
+    margin: 10px 0px;
+   
+}
+.sectionbar .bpo_button{
+    float: right;
+}
+
+.sectionbar .sectionbar-btn a{
+    padding: 10px 20px;
+    background-color: #e3e3e3 ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    /* box-shadow: 2px 4px #f3f3f3; */
+    /* border: 1px solid #666; */
+}
+.sectionbar .sectionbar-btn a:hover{
+    opacity: 0.9;
+    color: #f26522;
+}
+
+.clients_say_command{
+    background-color: #fff;
+    height: 170px;
+    padding: 17px 17px 10px 67px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+    
+    
+}
+
+.clients_say_command p,
+.clients_say_command span{
+    
+}
+
+.clients_say_form{
+    position: relative;
+    padding: 60px;
+    display: flex;
+}
+
+.clients_say_avatar1{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    background-image: url(../images/Index/FALogo_FA_Vert-rgb.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+}
+.clients_say_avatar2{
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    background-image: url(../images/Index/logo_client_access_nurses.jpg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* background-size: cover; */
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.client_says-btn  a{
+    padding: 10px 20px;
+    background-color: #e3e3e3 ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    /* box-shadow: 2px 4px #f3f3f3; */
+    /* border: 1px solid #666; */
+    float: right;
+}
+
+
+
+.client_says-btn  a:hover{
+    opacity: 0.9;
+    color: #f26522;
+}
+
+
+
+
+#para-actor{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    float: right;
+    font-style: italic;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 2;
+}
+.modal_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    
+}
+.modal_body{
+    --growth-from:0.7;
+    --growth-to: 1;
+    
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    animation: growth linear 0.1s;
+    padding: 30px 30px;
+    background-color: #ebebeb;
+
+}
+.modal_body img{
+    height: 323px;
+    width: 809px;
+    
+}
+@keyframes growth{
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+
+.modal-input:checked ~ .modal_overlay{
+    display: none;
+}
+.modal-input:checked ~ .modal_body{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.modal_close{
+    font-size: 3rem;
+    color: #666;
+    position: absolute;
+    top: 0rem;
+    right: 0.4rem;
+   
+}
+.modal_close:hover{
+    cursor: pointer;
+}
+
+
+
+.bannner_BPO{
+    /* background-image: url(../images/Index/Screenshot_1.jpg); */
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(../images/Index/Screenshot_1.jpg);
+    /* background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(../images/Index/Screenshot_1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
+.banner_advanced{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)),url(../images/Index/background_clients_say.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.banner_client_says{
+    background-image: url(../images/Index/2846.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
+

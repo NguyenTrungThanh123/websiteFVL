@@ -1,0 +1,108 @@
+.sidebar h1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #dfdfdf ;
+}
+.sidebar-content{
+    font-size: 1.3rem;
+    padding: 10px 0px;
+    justify-content: center;
+    line-height: 2rem;
+}
+.sidebar-content p{
+    padding:10px 0px;
+    position: relative;
+}
+
+.sidebar-intro{
+    width: 100%;
+}
+.sidebar-services{
+    padding: 10px 0px;
+}
+.sidebar-services_img{
+    float: right;
+}
+.sidebar-services_production{
+    padding: 10px 0px;
+}
+.sidebar-services_production h3{
+    padding-bottom: 16px;
+}
+.sidebar .paragraph{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 20px 0px;
+}
+
+.paragraph-function{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.paragraph-function h2{
+    padding-top: 10px;
+    height: 60px;
+}
+.paragraph-function p{
+    
+    line-height: 2rem;
+    padding: 10px 5px;
+    height: 65px;
+    vertical-align: middle;
+    text-align: center;
+}
+.process-chart{
+    width: 100%;
+    background-color: #f7f9f8;
+    border-radius: 5px;
+    padding-left: 64px;
+    
+}
+.paragraph-intro{
+    line-height: 2rem;
+    
+    padding: 20px 0px;
+}
+
+
+/* sectionbar */
+.sectionbar{
+    margin-top:20px;
+    background-color: #f0f0f0;
+    height: 1117px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 0px 10px;
+
+}
+
+.sectionbar-img{
+    padding: 10px 0px;
+}
+.sectionbar-img img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+.sectionbar-link{
+    text-decoration:underline;
+    padding: 10px 0px   ;
+
+}
+.sectionbar-link li {
+    padding-bottom: 10px;
+}
+.sectionbar-link li a:hover{
+    color: #f26522;
+}
+.sectionbar-icon{
+    padding-right: 5px;
+}
+.sectionbar-info_numberphone{
+    padding: 5px 10px;
+}
+.sectionbar-info_company{
+    padding: 10px 0px 5px;
+}
