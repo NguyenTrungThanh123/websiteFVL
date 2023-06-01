@@ -85,13 +85,13 @@ class Header extends HTMLElement {
                 <h4>Social Network Link</h4>
                 <div class="footer_logo-facebook row">
                   <div class="col l-12 footer_link-FVL">
-                     <a href="https://www.facebook.com/1stvirtue.company/"> <img src="./images/logo/square-facebook.png" alt="" target="_blank"> First Virtue Limited </a>
+                     <a href="https://www.facebook.com/1stvirtue.company/" target="_blank"> <img src="./images/logo/square-facebook.png" alt="" > First Virtue Limited </a>
                   </div>
                   <div class="col l-12 footer_link-TPL">
-                    <a href="https://www.facebook.com/FVLTPL"><img src="./images/logo/facebook.png" alt="" target="_blank"> Transcend People Limited</a>
+                    <a href="https://www.facebook.com/FVLTPL" target="_blank"><img src="./images/logo/facebook.png" alt="" > Transcend People Limited</a>
                   </div>
                   <div class="col l-12 footer_link-turkeydash">
-                    <a href="https://www.facebook.com/turkeydashvietnam"><img src="./images/logo/turkeydash.jpg" alt="" target="_blank"> Turkey Dash VietNam</a>
+                    <a href="https://www.facebook.com/turkeydashvietnam" target="_blank"><img src="./images/logo/turkeydash.jpg" alt="" > Turkey Dash VietNam</a>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ class Header extends HTMLElement {
           </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row copyright">
       <div class="col l-12"><p><span>First Virtue Limited Liability Company & Transcend People Limited Liability Company Copyright © 2008 - 2023 •</span> <a href="./privacy_policy.html"><span>Privacy Policy</span></a></p></div>
     </div>
   </div>

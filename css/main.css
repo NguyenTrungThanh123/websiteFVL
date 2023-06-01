@@ -271,7 +271,9 @@ p{
 .footer p a:hover{
     color: #a7a3a3;
 }
-
+.copyright {
+    padding-top: 20px;
+}
 
 @media (max-width: 1023px){
     .nav_bars-btn{
