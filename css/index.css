@@ -82,10 +82,8 @@
 }
 
 .sidebar .sidebar-btn{
-    margin: 10px 0px;
+    margin-top: 30px;
 }
-
-
 .content{
     display: flex;
     justify-content: center;
@@ -135,7 +133,6 @@
 
 .clients_say_command{
     background-color: #fff;
-    height: 170px;
     padding: 17px 17px 10px 67px;
     border-radius: 5px;
     box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
@@ -145,7 +142,11 @@
 .clients_say_form:hover{
     transform: scale(1.05)
 }
-
+.clients_say_command p,
+.clients_say_command span { 
+    font-size: 12px;
+    line-height: 2rem;
+}
 .clients_say_command p span{
     color:#333;
 }
@@ -154,7 +155,7 @@
     position: relative;
     padding-top: 60px;
     padding-left: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     display: flex;
     float: right;
     transition: transform .2s;
@@ -311,8 +312,12 @@
     background-image: url(../images/Index/2846.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 420px;
+    height: 430px;
     display: flex;
     align-items: center;
+    padding-top: 30px;
 }
 
+.client_says-btn{
+    padding-bottom: 20px;
+}

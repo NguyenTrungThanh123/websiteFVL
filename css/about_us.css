@@ -148,10 +148,11 @@
 
 }
 .sidebar-content_main{
-    padding: 10px 0px;
+    padding: 20px 10px;
 }
 .sidebar-content_main p{
     text-align: justify;
+    height: 120px;
 }
 .sidebar-content_main .author{
     padding: 10px 0px;
